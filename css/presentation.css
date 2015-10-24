@@ -1,0 +1,17 @@
+.reveal .call-stack {
+	width:45%; 
+	float:left; 
+	height: 455px; 
+	border: 4px solid #76bc3f;
+	margin-top:20px;
+}
+
+.reveal .slides section .fragment-opaque .fragment {
+	visibility: visible;
+	opacity: 1;
+}
+
+.reveal .slides section .fragment-opaque .visible {
+	visibility: hidden;
+	opacity: 0;
+}
